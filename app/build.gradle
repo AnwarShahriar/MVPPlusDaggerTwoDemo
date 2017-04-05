@@ -32,7 +32,10 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.1.0'
-    testCompile 'junit:junit:4.12'
+
+    // Testing dependencies
+    testCompile "junit:junit:4.12"
+    testCompile "org.mockito:mockito-core:2.+"
 
     // AutoValue dependencies
     provided "com.google.auto.value:auto-value:$autoValueVersion"
